@@ -16,6 +16,8 @@ function App() {
         <Container  src='/typescript-original.svg' alt='react logo' text='Typescript' backgroundGradient='bg-gradient-typescript' />
 
         <Container  src='/tailwindcss-original-wordmark.svg' alt='react logo' text='Tailwind CSS' backgroundGradient='bg-gradient-tailwind' />
+
+        <Container  src='/message-circle-code.svg' alt='Balão com um símbolo de código' text='Projeto desenvolvido como pré-requisito da fase Code Explorer.' />
       </section>
     </TemplateDefault>
   )
