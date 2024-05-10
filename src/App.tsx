@@ -45,6 +45,7 @@ function App() {
           src='/message-circle-code.svg' 
           alt='Balão com um símbolo de código' 
           text='Projeto desenvolvido como pré-requisito da fase Code Explorer.' 
+          textColor='text-black'
         />
       </section>
     </TemplateDefault>
