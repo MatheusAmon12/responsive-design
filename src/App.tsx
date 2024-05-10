@@ -6,7 +6,7 @@ function App() {
 
   return (
     <TemplateDefault>
-      <section className='grid grid-cols-1'>
+      <section className='h-[100vh] grid grid-cols-1 md:grid-cols-2'>
         <Container  src='/Vitejs-logo.svg' alt='react logo' text='ViteJS' backgroundGradient='bg-gradient-vite' />
 
         <Container  src='/react-original.svg' alt='react logo' text='ReactJS' backgroundGradient='bg-gradient-react' />
