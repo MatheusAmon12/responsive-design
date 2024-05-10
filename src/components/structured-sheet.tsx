@@ -17,10 +17,16 @@ const StructuredSheet = () => {
                             Fusion
                         </SheetTitle>
                     </SheetHeader>
-                        <div className="font-serif">
-                            <h4>Code Explorer (I'm here!)</h4>
-                            <h4>Code Wizard</h4>
-                            <h4>Code Sensi</h4>
+                        <div className="font-serif flex items-start flex-col gap-4">
+                            <Button size="sm" variant="ghost" className="cursor-pointer">
+                                Code Explorer
+                            </Button>
+                            <Button size="sm" variant="ghost" className="cursor-pointer">
+                                Code Wizard
+                            </Button>
+                            <Button size="sm" variant="ghost" className="cursor-pointer">
+                                Code Sensi
+                            </Button>
                         </div>
                         <SheetFooter className="absolute bottom-4">
                             Projeto Voluntário
