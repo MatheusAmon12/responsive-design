@@ -4,7 +4,7 @@ import { Sheet, SheetContent, SheetFooter, SheetHeader, SheetTitle, SheetTrigger
 
 const Header = () => {
     return ( 
-        <header className="w-full px-6 flex justify-between items-center pt-6 xl:pt-8 ">
+        <header className="w-full px-6 flex justify-between items-center pt-6 pb-2 xl:pt-8 ">
             <h1 className="text-lg font-semibold font-sans md:text-lg xl:text-xl">Fusion</h1>
             <Sheet>
                 <div className="xl:hidden">
