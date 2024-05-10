@@ -8,7 +8,7 @@ const Header = () => {
 
             <StructuredSheet />
 
-            <menu className="hidden xl:block">
+            <menu className="hidden xl:block font-serif">
                 <ul className="xl:flex xl:items-center xl:justify-center xl:gap-4">
                     <li>
                         <Button variant="ghost" className="md:text-lg xl:text-xl">
