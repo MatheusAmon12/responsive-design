@@ -20,6 +20,13 @@ export default {
       sans: ["var(--font-primary)", "sans-serif"],
       serif: ["var(--font-secondary)", "serif"],
     },
+    backgroundImage: {
+      "gradient-vite": "linear-gradient(45deg, #2fcfff 0%,#00c9ff 11%,#01b4ff 30%,#7476ff 55%,#9c5cff 73%,#bd34fe 100%)",
+      "gradient-react": "linear-gradient(135deg, #2193b0 0%,#6dd5ed 100%)",
+      "gradient-next": "linear-gradient(135deg, #152331 0%,#000000 100%)",
+      "gradient-typescript": "linear-gradient(45deg, #091e3b 0%,#2f80ed 50%,#2d9ee0 100%)",
+      "gradient-tailwind": "linear-gradient(45deg, #5433ff 0%,#20bdff 49%,#a5fecb 100%)",
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
