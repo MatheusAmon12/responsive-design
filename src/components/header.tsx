@@ -4,17 +4,17 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "./ui
 
 const Header = () => {
     return ( 
-        <header>
-            <h1>Fusion</h1>
+        <header className="w-full px-6 flex justify-between items-center pt-6">
+            <h1 className="text-lg font-semibold font-sans">Fusion</h1>
             <Sheet>
-                <SheetTrigger>
-                    <Button>
+                <SheetTrigger className="cursor-pointer">
+                    <Button size="icon" variant="ghost">
                         <Menu />
                     </Button>
                 </SheetTrigger>
-                <SheetContent>
+                <SheetContent className="w-[95vw]">
                     <SheetHeader>
-                        <SheetTitle>
+                        <SheetTitle className="cursor-pointer text-left">
                             Fusion
                         </SheetTitle>
                     </SheetHeader>
